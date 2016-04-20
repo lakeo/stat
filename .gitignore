@@ -1,0 +1,16 @@
+*.py[cod]
+.venv/
+.airflow/
+local.py
+unittests.cfg
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging

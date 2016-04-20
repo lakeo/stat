@@ -1,0 +1,446 @@
+# -*- mode: ssh-config -*-
+
+Host *
+  IdentityFile ~/.ssh/id_rsa
+#  IdentityFile ~/.ssh/zbd_id_rsa
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  LogLevel ERROR
+
+# WAN server
+
+# LAN server
+Host mon backupm1 apptest app1 app2 app3 app4 app5 app6 app7 app8 app9 app10 app11 app12 app13 app14 app15 app16 app17 app18 app19 app20 app21 app22 app23 app24 app25 app26 app27 app28 app29 app30 app31 app32 app33 app34 app35 app36 app37 app38 app39 app40 app41 app42 app43 app44 app45 app46 app47 app48 app49 app50 worker1 worker2 worker3 worker4 worker5 worker6 worker7 worker8 worker9 worker10 batch1 batch2 batch3 cache1m cache1s1 cache1s2 cache2m cache2s1 cache2s2 cache3m cache3s1 cache3s2 statsm statss queuem  datam1 datas1 limiterm datas2 datas3 caches4 data2m data2s1 data2s2 data2s3 data3m data3s1 data3s2 data3s3 data1m data1s1 data1s2 data1s3 data4m data4s1 data4s2 data4s3 dbmisc cdntest benchmark web1 web2 daily-audit
+  HostName 120.132.85.168
+  User ubuntu
+
+Host u12 mon
+  Port 2012
+
+Host u250 backupm1
+  Port 2250
+
+Host u151 app1
+  Port 2151
+
+Host u152 app2
+  Port 2152
+
+Host u153 app3
+  Port 2153
+
+Host u154 app4
+  Port 2154
+
+Host u155 app5
+  Port 2155
+
+Host u156 app6
+  Port 2156
+
+Host u156 app7
+  Port 2157
+
+Host u156 app8
+  Port 2158
+
+Host u156 app9
+  Port 2159
+
+Host app10
+  Port 2050
+
+Host app11
+  Port 2051
+
+Host app12
+  Port 2052
+
+Host app13
+  Port 2053
+
+Host app14
+  Port 2054
+
+Host app15
+  Port 2055
+
+Host app16
+  Port 2056
+
+Host app17
+  Port 2057
+
+Host app18
+  Port 2058
+
+Host app19
+  Port 2059
+
+Host app20
+  Port 2040
+
+Host app21
+  Port 2041
+
+Host app22
+  Port 2042
+
+Host app23
+  Port 2043
+
+Host app24
+  Port 2044
+
+Host app25
+  Port 2045
+
+Host app26
+  Port 2046
+
+Host app27
+  Port 2047
+
+Host app28
+  Port 2048
+
+Host app29
+  Port 2049
+
+Host app30
+  Port 2030
+
+Host app31
+  Port 2031
+
+Host app32
+  Port 2032
+
+Host app33
+  Port 2033
+
+Host app34
+  Port 2034
+
+Host app35
+  Port 2035
+
+Host app36
+  Port 2036
+
+Host app37
+  Port 2037
+
+Host app38
+  Port 2038
+
+Host app39
+  Port 2039
+
+Host app40
+  Port 2340
+
+Host app41
+  Port 2341
+
+Host app42
+  Port 2342
+
+Host app43
+  Port 2343
+
+Host app44
+  Port 2344
+
+Host app45
+  Port 2345
+
+Host app46
+  Port 2346
+
+Host app47
+  Port 2347
+
+Host app48
+  Port 2348
+
+Host app49
+  Port 2349
+
+Host app50
+  Port 2350
+
+Host apptest
+  Port 2099
+
+Host cdntest
+  Port 2098
+
+Host benchmark
+  Port 2097
+
+Host u161 worker1
+  Port 2161
+
+Host u162 worker2
+  Port 2162
+
+Host u163 worker3
+  Port 2163
+
+Host u164 worker4
+  Port 2164
+
+Host u165 worker5
+  Port 2165
+
+Host u166 worker6
+  Port 2166
+
+Host u167 worker7
+  Port 2167
+
+Host u168 worker8
+  Port 2168
+
+Host u169 worker9
+  Port 2169
+
+Host u170 worker10
+  Port 2170
+
+Host u171 batch1
+  Port 2171
+
+Host u172 batch2
+  Port 2172
+
+Host u173 batch3
+  Port 2173
+
+
+Host u192 datam1
+  Port 2192
+
+Host u193 datas1
+  Port 2193
+
+Host u194 statsm
+  Port 2194
+
+Host u195 statss
+  Port 2195
+
+Host u196 queuem
+  Port 2196
+
+Host u130 cache1m
+  Port 2130
+
+Host u131 cache1s1
+  Port 2131
+
+Host u132 cache1s2
+  Port 2132
+
+Host u140 cache2m
+  Port 2140
+
+Host u141 cache2s1
+  Port 2141
+
+Host u142 cache2s2
+  Port 2142
+
+Host u146 cache3m
+  Port 2146
+
+Host u147 cache3s1
+  Port 2147
+
+Host u148 cache3s2
+  Port 2148
+
+Host u201 limiterm
+  Port 2201
+
+Host u202 datas2
+  Port 2202
+
+Host u203 datas3
+  Port 2204
+
+Host u200 caches4
+  Port 2203
+
+Host u220 data1m
+  Port 2220
+
+Host u221 data1s1
+  Port 2221
+
+Host u222 data1s2
+
+Host u201 limiterm
+  Port 2201
+
+Host u202 datas2
+  Port 2202
+
+Host u203 datas3
+  Port 2204
+
+Host u220 data1m
+  Port 2220
+
+Host u221 data1s1
+  Port 2221
+
+Host u222 data1s2
+  Port 2222
+
+Host u223 data1s3
+  Port 2223
+
+Host u180 data2m
+  Port 2180
+
+Host u181 data2s1
+  Port 2181
+
+Host u182 data2s2
+  Port 2182
+
+Host u183 data2s3
+  Port 2183
+
+Host u210 data3m
+  Port 2210
+
+Host u211 data3s1
+  Port 2211
+
+Host u212 data3s2
+  Port 2212
+
+Host u213 data3s3
+  Port 2213
+
+Host u230 data4m
+  Port 2230
+
+Host u231 data4s1
+  Port 2231
+
+Host u232 data4s2
+  Port 2232
+
+Host u233 data4s3
+  Port 2233
+
+Host dbmisc dbmisc
+  Port 2251
+
+Host adhoc11 ngx20 ngx21 app31 wkr41 batch49 chat50 dbm60 dbs61 dbs62 dbs63 dbs64 dbm70 dbs71 dbs72 dbs73 dbs74 dbm80 dbs81 dbs82 dbs83 dbs84 dbm90 dbs91 dbs92 dbs93 dbs94 rds100 rds101 u11 u12 u20 u21 u31 u32 u33 u34 u35 u36 u41 u42 u49 u50 u51 u52 u53 u54 u55 u56 u57 u59 u60 u61 u62 u70 u71 u72 u80 u81 u82 u90 u91 u92 u100 u101 u130 u131
+  HostName 120.132.85.168
+  User ubuntu
+
+Host u20 ngx20
+  Port 2020
+
+Host u21 ngx21
+  Port 2021
+
+Host u31 app31
+  Port 2031
+
+Host u41 wkr41
+  Port 2041
+
+Host u49 batch49
+  Port 2049
+
+Host u50 chat50
+  Port 2050
+
+Host u60 dbm60
+  Port 2060
+
+Host u61 dbs61
+  Port 2061
+
+Host u62 dbs62
+  Port 2062
+
+Host u63 dbs63
+  Port 2063
+
+Host u64 dbs64
+  Port 2064
+
+Host u70 dbm70
+  Port 2070
+
+Host u71 dbs71
+  Port 2071
+
+Host u72 dbs72
+  Port 2072
+
+Host u73 dbs73
+  Port 2073
+
+Host u74 dbs74
+  Port 2074
+
+Host u80 dbm80
+  Port 2080
+
+Host u81 dbs81
+  Port 2081
+
+Host u82 dbs82
+  Port 2082
+
+Host u83 dbs83
+  Port 2083
+
+Host u84 dbs84
+  Port 2084
+
+Host u90 dbm90
+  Port 2090
+
+Host u91 dbs91
+  Port 2091
+
+Host u92 dbs92
+  Port 2092
+
+Host u93 dbs93
+  Port 2093
+
+Host u94 dbs94
+  Port 2094
+
+Host u100 rds100
+  Port 2100
+
+Host u101 rds101
+  Port 2101
+
+Host u11 adhoc11
+  Port 2011
+
+Host u241 web1
+  Port 2241
+
+Host u242 web2
+  Port 2242
+
+Host u245 daily-audit
+  Port 2245
+
+Host pxy
+  HostName 139.162.62.169
+  User root
